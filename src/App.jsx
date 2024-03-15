@@ -5,9 +5,9 @@ import NavBar from './components/NavBar'
 
 export default function App(){
     return (
-        <main className="relative">
+        <main className="relative px-[80px]">
                 <NavBar />
-            <section className="xl:padding-1 wide:padding-r padding-b">
+            <section className="xl:padding-lg wide:padding-r padding-b">
                 <Hero />
             </section>
             <section className="padding">
