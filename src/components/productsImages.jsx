@@ -1,19 +1,20 @@
-import { FaStar } from "react-icons/fa6";
+import  { star } from '../assets/icons';
 
-const productsImages = ({ data }) => {
+const productsImages = ({ imgURL,name,price }) => {
+
   return (
-   <div className="">
-      <img src={data.imgURL} alt='productImg' width={250} height={250}/>
+   <>
+      <img src={imgURL} alt={name} width={250} height={250}/>
       <div className="m-4">
         <div className="flex ">
-          <FaStar /> <p className="m-2">(4.5)</p>
+          <img src={ star } /> <p className="m-2">(4.5)</p>
         </div>
         
-        <p>{data.name}</p>
-        <p>{data.price}</p>
+        <p>{name}</p>
+        <p>{price}</p>
       </div>
       
-   </div>
+   </>
   )
 }
 

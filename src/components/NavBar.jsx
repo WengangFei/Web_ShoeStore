@@ -12,8 +12,7 @@ const NavBar = () => {
         <a href=''>
           <img alt='logo' src={ headerLogo } width={130} height={29}/>
         </a>
-        <ul className='flex-1 flex justify-center items-center gap-16
-         max-sm:hidden'>
+        <ul className='flex-1 flex justify-center items-center gap-16 max:lg-hidden'>
           {navLinks.map(ele=>(
               <li key={ele.label}>
                 <a href={ele.href} className='font-montserrat leading-normal 
@@ -24,8 +23,13 @@ const NavBar = () => {
             )
           )}
         </ul>
-        <div className='hidden max-sm:block'>
-          <img src={hamburger} alt='hamburger' width={20} height={20}/>
+        <div className='flex gap-2 text-lg leading-normal font-medium font-montserrat max-lg:hidden wide:mr-24'>
+          <a href='/'>Sign in</a>
+          <span>/</span>
+          <a href='/'>Explore now</a>
+        </div>
+        <div className='hidden max-lg:block'>
+          <img src={hamburger} alt='hamburger' width={25} height={25}/>
         </div>
       </nav>
       
