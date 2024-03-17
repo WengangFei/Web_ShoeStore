@@ -9,11 +9,9 @@ const productsImages = ({ imgURL,name,price }) => {
         <div className="flex ">
           <img src={ star } /> <p className="m-2">(4.5)</p>
         </div>
-        
-        <p>{name}</p>
-        <p>{price}</p>
+        <p className='font-semibold text-2xl text-purple-500 leading-normal'>{name}</p>
+        <p className='font-montserrat text-coral-red leading-normal'>{price}</p>
       </div>
-      
    </>
   )
 }

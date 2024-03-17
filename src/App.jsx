@@ -5,7 +5,7 @@ import NavBar from './components/NavBar'
 
 export default function App(){
     return (
-        <main className="relative px-[80px]">
+        <main className="relative p-[80px] ">
                 <NavBar />
             <section className="xl:padding-lg wide:padding-r padding-b">
                 <Hero />
@@ -28,7 +28,7 @@ export default function App(){
             <section className="padding-x sm:py-32 py-16 w-full">
                 <Subscribe />
             </section>
-            <section className="bg-black padding-x padding-t pb-8">
+            <section className="bg-black text-white p-8">
                 <Footer />
             </section>
         </main>

@@ -14,12 +14,15 @@ export default {
       '2xl': ['24px', '29.26px'],
       '3xl': ['28px', '50px'],
       '4xl': ['48px', '58px'],
-      '8xl': ['96px', '106px']
+      '6xl': ['72px', '82px'],
+      '8xl': ['96px', '106px'],
+      '10xl': ['192px', '212px']
     },
     extend: {
       fontFamily: {
         palanquin: ['Palanquin', 'sans-serif'],
         montserrat: ['Montserrat', 'sans-serif'],
+        dosis:['Dosis','sans-serif']
       },
       colors: {
         'primary': "#ECEEFF",
