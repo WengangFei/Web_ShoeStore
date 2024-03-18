@@ -17,9 +17,9 @@ const Hero = () => {
       items-start w-full max-xl:padding-x pt-28">
         <p className='text-xl font-montserrat text-coral-red'>Our summer collection</p>
         <h1 className='font-palanquin text-8xl max-sm:text-[75px]
-        max-sm:leading-[80] font-bold'>
+        lg:leading-[2] font-bold'>
           <span className='text-8xl font-dosis'>New Arrival</span><br />
-          <span className='text-fuchsia-600/70'>Nike</span> <span className='text-4xl'>Shoes</span>
+          <span className='text-fuchsia-600/70'>Nike</span> <span className='text-8xl'>Shoes</span>
         </h1>
         <p className='rounded-lg p-3 shadow-2xl my-4'>
           Discover More stylish shoes, cloth, and other sports equipments.
